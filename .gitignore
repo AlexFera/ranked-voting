@@ -1,0 +1,5 @@
+/target
+/db/votes.db
+db/votes.db-shm
+db/votes.db-wal
+/node_modules

@@ -1,0 +1,12 @@
+[package]
+name = "ranked-voting"
+version = "0.1.0"
+authors = ["Alex Fera"]
+edition = "2021"
+
+[dependencies]
+sqlx = { version = "0.5.9", features = [ "runtime-tokio-rustls", "sqlite" ] }
+rocket = { version = "0.5.0-rc.1", features = ["json"] }
+jsonwebtoken = "7"
+rcir = "0.3.0"
+itertools = "0.10.1"
